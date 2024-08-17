@@ -228,7 +228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1912615437440991766
 Transform:
   m_ObjectHideFlags: 0
@@ -1395,9 +1395,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1912615437440991766}
-  - {fileID: 2984753668163559893}
-  - {fileID: 3852470125755494429}
-  - {fileID: 5480526670061698406}
+  - {fileID: 5973850877219215832}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3472458974724856221
@@ -1773,7 +1771,7 @@ Transform:
   - {fileID: 6140618362863306323}
   - {fileID: 1215903249384039357}
   - {fileID: 6383053965122791193}
-  m_Father: {fileID: 3122776416737061373}
+  m_Father: {fileID: 5973850877219215832}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5207935336677148471
 GameObject:
@@ -2510,6 +2508,40 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &7523177415965327801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5973850877219215832}
+  m_Layer: 0
+  m_Name: Scale
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5973850877219215832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7523177415965327801}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.60225, y: 0.60225, z: 0.60225}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2984753668163559893}
+  - {fileID: 3852470125755494429}
+  - {fileID: 5480526670061698406}
+  m_Father: {fileID: 3122776416737061373}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7546039757737508630
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,7 +3283,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3122776416737061373}
+    m_TransformParent: {fileID: 5973850877219215832}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bac4d38d5483f82498c4210ad988b816,
         type: 3}
@@ -3357,7 +3389,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3122776416737061373}
+    m_TransformParent: {fileID: 5973850877219215832}
     m_Modifications:
     - target: {fileID: 129174093546061654, guid: cb8c99d92c310fd41bf66db08cb3df57,
         type: 3}
