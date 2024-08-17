@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloi.bedroomfromsketchfab",                              
+  "displayName": "Bedroom From Sketchfab",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Some bedroom to use in prototype coming from sketchfab in CC.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"Eloi Stree",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_08_16_BedroomFromSketchab.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

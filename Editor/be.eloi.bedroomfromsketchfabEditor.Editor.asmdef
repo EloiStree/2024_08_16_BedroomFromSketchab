@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloi.bedroomfromsketchfabEditor",          
+    "references": ["be.eloi.bedroomfromsketchfab"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   
